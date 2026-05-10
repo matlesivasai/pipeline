@@ -1,11 +1,10 @@
 pipeline {
     agent any
 
-    environment {
-        IMAGE_NAME = "python-hello-app"
-        DOCKER_USERNAME = "matlesivasai"
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
-    }
+   environment {
+    IMAGE_NAME = "python-hello-app"
+    DOCKER_USERNAME = "matlesivasai"
+}
 
     stages {
 
