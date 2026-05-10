@@ -1,1 +1,1 @@
-print("Hello World from Jenkins Pipeline and changeds!")
+print("Hello World from Jenkins Pipeline and changedes!")
